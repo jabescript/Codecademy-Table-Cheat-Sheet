@@ -1,0 +1,48 @@
+html {
+	display: block;
+}
+
+body {
+	font-family: monospace;
+	font-size: 1.5em;
+	background-color: aliceblue;
+	color: black;
+	margin: 50px 10px 50px 50px;
+}
+
+h1 {
+	padding-bottom: 30px;
+}
+
+h2 {
+	background-color: chartreuse;
+	max-width: 270px;
+}
+
+#code {
+	max-width: 170px;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+}
+
+table,
+th,
+td {
+	border: 1px solid darkslategray;
+	padding: 10px;
+	max-width: 700px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+th {
+	background-color: chartreuse;
+	font-weight: bold;
+}
